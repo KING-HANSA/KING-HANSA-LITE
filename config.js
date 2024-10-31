@@ -16,7 +16,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "",
-MONGODB: process.env.MONGODB || "",
+MONGODB: process.env.MONGODB || "mongodb://mongo:pnOUWScxlmmPtrGAEtOdgcGEaoXvZByb@autorack.proxy.rlwy.net:40225",
 BOT_NUMBER: process.env.BOT_NUMBER || "+94 70 151 5609",
 OWNER_REACT: process.env.OWNER_REACT || "🔗",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
