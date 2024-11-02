@@ -1,12 +1,12 @@
 {
-  "name": "Queen_Roshika",
+  "name": "KING-HANSA-LITE",
   "version": "1.0.0",
   "description": "A Simple WhatsApp bot created By Hansa-Dewmina",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Queen_Roshika",
-    "stop": "pm2 stop Queen_Roshika",
-    "restart": "pm2 restart Queen_Roshika"
+    "start": "pm2 start index.js --deep-monitoring --attach --name King-Hansa-Lite",
+    "stop": "pm2 stop King-Hansa-Lite",
+    "restart": "pm2 restart King-Hansa-Lite"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
