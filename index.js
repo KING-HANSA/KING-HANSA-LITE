@@ -46,7 +46,7 @@ const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
 fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
-console.log("Queen_Roshika Session downloaded ✅")
+console.log("King-Hansa-Lite Session downloaded 🍁")
 })})}
 
 const express = require("express");
