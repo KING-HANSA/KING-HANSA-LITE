@@ -22,7 +22,7 @@ main: '',
 download: '',
 group: '',
 owner: '',
-convert: '',
+misc: '',
 search: '',
 fun: '',
 other: ''
