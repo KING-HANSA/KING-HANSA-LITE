@@ -5,7 +5,7 @@ const { cmd } = require('../command');
                              pattern: "define",
                              desc: "📚 Get the definition of a word",
                              react: "🔍",
-                             category: "other",
+                             category: "misc",
                              filename: __filename
                          },
                          async (conn, mek, m, { from, q, reply }) => {
