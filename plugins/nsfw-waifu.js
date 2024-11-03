@@ -4,7 +4,7 @@ const { cmd, commands } = require('../command');
 cmd({
 pattern: "waifu",
 desc: "Fetch a random waifu girl image.",
-category: "misc",
+category: "anime",
 react: "🍓",
 filename: __filename
 },
