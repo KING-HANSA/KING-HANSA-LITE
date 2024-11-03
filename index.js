@@ -68,17 +68,16 @@ require("./plugins/" + plugin);
 }
 });
 console.log('Plugins installed successful 🔌')
-console.log('Queen_Roshika connected to whatsapp 🪀')
+console.log('KING-HANSA-LITE connected to whatsapp 🪀')
 
 let up = `
-🧚‍♀*Qᴜᴇᴇɴ_ʀᴏꜱʜɪᴋᴀ ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ!*🧚‍♀ 
+*🍁 ᴋɪɴɢ ʜᴀɴꜱᴀ ʟɪᴛᴇ ᴄᴏɴɴᴇᴄᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ 🍁*
+╭─「 *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴋɪɴɢ ʜᴀɴꜱᴀ ʟɪᴛᴇ* 」
+│◈ *σωηєя ηαмє*   𝐇𝐚𝐧𝐬𝐚 𝐃𝐞𝐰𝐦𝐢𝐧𝐚
+│◈ *σωηєя ηυмвєя*   ${config.BOT_NUMBER}
+╰──────────●●►`;
 
-╭─「 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ Qᴜᴇᴇɴ ʀᴏꜱʜɪᴋᴀ 」
-│◈ σωηєя ηαмє   𝐇𝐚𝐧𝐬𝐚 𝐃𝐞𝐰𝐦𝐢𝐧𝐚
-│◈ σωηєя ηυмвєя   ${config.BOT_NUMBER}
-╰──────────●●► `;
-
-conn.sendMessage(config.BOT_NUMBER + "@s.whatsapp.net", { image: { url: `https://i.postimg.cc/FKN3bv38/20240919-134939.jpg` }, caption: up })
+conn.sendMessage(config.BOT_NUMBER + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/dfkL19B/20241019-101138.jpg` }, caption: up })
 
 }
 })
@@ -189,7 +188,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("|| ❤🧡💛💚QUEEN ROSHIKA - X IS CONECTED  POWERD BY HANSA DEWMINA 💙💜🤎🖤||");
+res.send("|| 🍁 KING-HANSA-LITE___________POWERD BY HANSA DEWMINA 🍁 ||");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
