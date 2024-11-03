@@ -29,7 +29,7 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
     if(!isOwner)return
 const {exec} = require("child_process")
-reply("restarting QUEEN ROSHIKA MD...")
+reply("restarting KING-HANSA-LITE 🍓...")
 await sleep(1500)
 exec("pm2 restart all")
 }catch(e){
