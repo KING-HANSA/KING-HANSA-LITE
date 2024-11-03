@@ -4,7 +4,7 @@ const { cmd, commands } = require('../command');
 cmd({
 pattern: "blowjob",
 desc: "Fetch a random blowjob girl image.",
-category: "misc",
+category: "anime",
 react: "🍓",
 filename: __filename
 },
