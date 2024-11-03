@@ -5,7 +5,7 @@ const { cmd, commands } = require('../command');
 cmd({
 pattern: "kill",
 desc: "Fetch a random anime kill image.",
-category: "misc",
+category: "anime",
 react: "🍒",
 filename: __filename
 },
