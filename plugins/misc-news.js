@@ -4,7 +4,7 @@ const { cmd } = require('../command');
 cmd({
     pattern: "news",
     desc: "Get the latest news headlines.",
-    category: "other",
+    category: "misc",
     react: "📰",
     filename: __filename
 },
