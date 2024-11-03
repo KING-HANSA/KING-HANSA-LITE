@@ -5,7 +5,7 @@ const { cmd, commands } = require('../command');
 cmd({
     pattern: "srepo",
     desc: "Fetch information about a GitHub repository.",
-    category: "other",
+    category: "misc",
     react: "📁",
     filename: __filename
 },
