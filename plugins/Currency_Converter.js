@@ -5,7 +5,7 @@ const { cmd, commands } = require('../command');
 cmd({
 pattern: "convert",
 desc: "Convert an amount from one currency to another.",
-category: "convert",
+category: "misc",
 react: "💱",
 filename: __filename
 },
