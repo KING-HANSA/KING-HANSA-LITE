@@ -1,19 +1,3 @@
-/**
- ██████╗ ██╗   ██╗███████╗███████╗███╗   ██╗    ██████╗  ██████╗ ███████╗██╗  ██╗██╗██╗  ██╗ █████╗     ██╗  ██╗
-██╔═══██╗██║   ██║██╔════╝██╔════╝████╗  ██║    ██╔══██╗██╔═══██╗██╔════╝██║  ██║██║██║ ██╔╝██╔══██╗    ╚██╗██╔╝
-██║   ██║██║   ██║█████╗  █████╗  ██╔██╗ ██║    ██████╔╝██║   ██║███████╗███████║██║█████╔╝ ███████║     ╚███╔╝ 
-██║▄▄ ██║██║   ██║██╔══╝  ██╔══╝  ██║╚██╗██║    ██╔══██╗██║   ██║╚════██║██╔══██║██║██╔═██╗ ██╔══██║     ██╔██╗ 
-╚██████╔╝╚██████╔╝███████╗███████╗██║ ╚████║    ██║  ██║╚██████╔╝███████║██║  ██║██║██║  ██╗██║  ██║    ██╔╝ ██╗
- ╚══▀▀═╝  ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝    ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═╝  ╚═╝
-         
-* Project name - QUEEN ROSHIKA X 
-* Author - Hansa Dewmina
-* Team - Dewminacoders 
-* Version - vX
-
-World best and powerfull whatsapp user bot in Sri lanka*/
-
-
 const config = require('../config')
 const {cmd , commands} = require('../command')
 
@@ -31,14 +15,14 @@ let about = `
 👋*HELLOW THEIR* ${senderNumber}
 
 ╭─「 *ᴀʙᴏᴜᴛ* 」
-│◈ I AM QUEEN_ROSHIKA WHATSAPP BOT
-│◈ CREATED BY DEWMINA-HD(HANSA DEWMINA)..
+│◈ *I AM KING-HANSA-LITE WHATSAPP BOT*
+│◈ *CREATED BY DEWMINA-HD(HANSA DEWMINA)*..
 ╰──────────●●►
 ╭──────────●●►
-│*© 𝙌𝙐𝙀𝙀𝙉 𝙍𝙊𝙎𝙃𝙄𝙆𝘼 𝘽𝙊𝙏 - MD *
-│*💻 GitHub:* github.com/KING-HANSA/X-QUEEN-ROSHIKA-X
+│© 𝐊𝐈𝐍𝐆 𝐇𝐀𝐍𝐒𝐀-𝐋𝐈𝐓𝐄 - 𝐌𝐃 *
+│🍁*GitHub*:*github.com/KING-HANSA/KING-HANSA-LITE*
 ╰───────────●●►
-THANKS FOR USING QUEEN ROSHIKA WHATSAPP BOT MD`
+*THANKS FOR USING KING-HANSA WHATSAPP BOT MD*`
 return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption:about},{quoted: mek})
 }catch(e){
 console.log(e)
